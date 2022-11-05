@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main{
+
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#turnOnOff{
+    width: 80px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px black;
+    padding: 8px;
+    font:  16px bold;
+    cursor: pointer;
+    transition: .3s;
+}
+#turnOnOff:hover{
+    width: 100px;
+    box-shadow: 4px 4px 10px;
+}
